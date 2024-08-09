@@ -1,0 +1,27 @@
+POST http://127.0.0.1:3333/signup
+Content-Type: application/json
+
+{
+    "username": "New User",
+    "email": "newuser@example.com",
+    "password": "password123"
+}
+###
+
+GET http://127.0.0.1:3333/users
+
+###
+
+GET http://127.0.0.1:3333/arts/year/2008
+
+###
+
+GET http://127.0.0.1:3333/arts/category/landscapes
+
+###
+
+GET http://127.0.0.1:3333/arts/type/pastel
+
+
+
+
